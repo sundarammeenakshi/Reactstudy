@@ -1,0 +1,49 @@
+.app{
+    height: 600px;
+}
+
+table{
+    margin: 5rem auto;
+    border: 1rem hidden #443c68;
+    border-collapse: collapse;
+    box-shadow: 0 0 0 1px black;
+    overflow: hidden;
+    max-width: 80rem;
+}
+thead{
+    font-size: 1.6rem;
+    background-color: silver;
+    color: #fff;
+}
+th,td{
+    min-width: 10rem;
+    padding: 1.2rem;
+    line-height: 0.4;
+}
+td{
+    font-size: 1.4rem;
+}
+.container {
+    height: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .button1{
+    width: 50px;
+   
+}
+ .buttonplace{
+    padding-top: 100px;
+    padding-left: 850px;
+  
+ }
+  .form{
+    padding: 30px;
+    padding-top: 2px;
+    }
+  #label{
+    
+    display: flex;
+   
+  }
