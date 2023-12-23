@@ -6,7 +6,9 @@ const Upload = ({ title, content }) => {
         <div>
           <h1 className="card-title">{title}</h1>
           <p  style={{paddingRight:"20px"}} className="card-text">{content}</p>
-          <input type="file" style={{color:"transparent"}}/> 
+
+          <button type="button" class="btn btn-light"><input type="file" style={{transform:"scale(3)",opacity:"0",position:"absolute"}} /> Light</button>
+          
           
         </div>
       </div>
